@@ -2,15 +2,7 @@
 
 int facto(int n)
 {
-	if (n == 0)
-	{
-		return 1;
-	}
-	else
-	{
-		return n * facto(n - 1);
-	}
-
+    return (n == 0) ? 1 : n * facto(n-1);
 }
 
 int main()
